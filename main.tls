@@ -1,0 +1,73 @@
+let num1 = 0;
+let num2 = 1;
+let num3 = num1 + num2;
+
+let times = randInt(2, 5);;
+
+// Fibonacci
+let i = 0;
+while (i < times) {
+    i++;
+    
+    num1 = num2;
+    num2 = num3;
+    num3 = num1 + num2;
+};
+
+print(num3);
+
+const hi = "Hello!";
+
+//print(num3);
+
+
+// Name Check
+let name = "TeakIvy";
+
+if (name != "TeakIvy") {
+    print("You are not Teak.");
+} else {
+    print("You are Teak.");
+};
+
+// Arrays
+
+let ages = [10, 4, 16];
+
+let teakAge = ages[2];
+print(teakAge);
+print(ages[2]);
+
+ages[2] = 18;
+print(ages[2]);
+
+getName();
+
+func getName() {
+    return name;
+};
+
+let getNameLambda = () -> {
+    return name;
+};
+
+print(getNameLambda(); + " " + getName(); + " Hi");
+
+for (let i = 1; i < 4000; i += 2;) {
+    if (i > 20) {
+        break;
+    };
+    print(i);
+};
+
+for (4;) {
+    print(7);
+};
+
+print(range(10););
+
+for (i in range(2, 7);;) {
+    print("Hello " + i);
+};
+
+print("done");

@@ -1,0 +1,19 @@
+{
+	"name": "test-lang",
+	"version": "0.0.1",
+	"description": "Testing Programming Language in NodeJS",
+	"main": "main.js",
+	"scripts": {
+		"parse": "nearleyc test.ne -o test.js"
+	},
+	"author": "TeakIvy",
+	"license": "ISC",
+	"dependencies": {
+		"child_process": "^1.0.2",
+		"fs": "^0.0.1-security",
+		"moo": "^0.5.1",
+		"mz": "^2.7.0",
+		"nearley": "^2.20.1",
+		"util": "^0.12.4"
+	}
+}
